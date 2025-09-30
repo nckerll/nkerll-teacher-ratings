@@ -1,0 +1,20 @@
+{
+  "name": "@nckerll/nkerll-teacher-ratings",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "flarum-webpack-config": "^2.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "typescript": "^5.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "ts-loader": "^9.5.1"
+  }
+}

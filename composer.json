@@ -1,0 +1,25 @@
+{
+    "name": "nckerll/nkerll-teacher-ratings",
+    "description": "Flarum forumunda öğretmenler için puanlama ve yorum yapma imkanı sağlar.",
+    "type": "flarum-extension",
+    "keywords": ["flarum"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0|^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nckerll\\TeacherRatings\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Öğretmen Puanlama Eklentisi",
+            "icon": {
+                "name": "fas fa-chalkboard-teacher",
+                "color": "#e74c3c",
+                "backgroundColor": "#f39c12"
+            }
+        }
+    }
+}
