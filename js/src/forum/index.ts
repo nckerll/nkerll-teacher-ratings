@@ -2,6 +2,7 @@ import { extend } from 'flarum/common/extend';
 import IndexPage from 'flarum/forum/components/IndexPage';
 import LinkButton from 'flarum/common/components/LinkButton';
 import TeacherRatingsPage from './pages/TeacherRatingsPage';
+import './forum.css';
 
 declare const app: any;
 
