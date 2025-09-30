@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher Rating System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'flarum-bg-primary': '#ffffff',
+              'flarum-bg-secondary': '#f8fafc',
+              'flarum-bg-tertiary': '#e2e8f0',
+              'flarum-text-primary': '#0f172a',
+              'flarum-text-secondary': '#475569',
+              'flarum-text-tertiary': '#64748b',
+              'flarum-border': 'rgba(59, 130, 246, 0.15)',
+              'flarum-shadow-light': 'rgba(59, 130, 246, 0.06)',
+              'flarum-shadow-medium': 'rgba(59, 130, 246, 0.12)',
+              'brand-primary': '#3B82F6',
+              'brand-secondary': '#60A5FA',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gradient-to-br from-flarum-bg-secondary to-flarum-bg-tertiary text-flarum-text-primary font-sans">
+    <div id="root"></div>
+  </body>
+</html>

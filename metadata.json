@@ -1,0 +1,5 @@
+{
+  "name": "Teacher Rating System",
+  "description": "A web application that allows students to rate their teachers based on various criteria. It features a teacher list, individual teacher profiles with aggregated ratings, and a system for adding new teachers and submitting reviews.",
+  "requestFramePermissions": []
+}
