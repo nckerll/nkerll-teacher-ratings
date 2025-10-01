@@ -42,6 +42,9 @@ export const RatingForm: React.FC<RatingFormProps> = ({ onSubmit, criteriaLabels
   const calculateAverage = (): number => {
     const values = Object.values(rating.criteria);
     if (values.length === 0) return 0;
+    // FIX: The type of `sum` in `reduce` was not correctly inferred without an initial value,
+    // and `val` from Object.values could be `unknown`. Adding an initial value `0` to `reduce`
+    // and casting `val` to `Number` ensures the arithmetic operation is type-safe.
     const total = values.reduce((sum, val) => sum + Number(val), 0);
     const ratedCriteriaCount = values.filter(val => Number(val) > 0).length;
     return ratedCriteriaCount > 0 ? total / ratedCriteriaCount : 0;
